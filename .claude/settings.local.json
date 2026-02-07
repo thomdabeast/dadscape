@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:www.osrsbox.com)",
+      "WebFetch(domain:static.runelite.net)",
+      "Bash(./gradlew build:*)",
+      "Bash(./gradlew clean build:*)",
+      "Bash(./gradlew compileJava:*)",
+      "Bash(./gradlew assemble:*)",
+      "Bash(dir /s /b \"c:\\\\Users\\\\hemen\\\\OneDrive\\\\Documents\\\\dadcred-master\")",
+      "Bash(findstr:*)",
+      "Bash(npm run seed-test-data:*)",
+      "Bash(npm run dev:*)",
+      "Bash(timeout:*)",
+      "Bash(curl:*)",
+      "Bash(ping:*)",
+      "Bash(netstat:*)",
+      "Bash(taskkill:*)",
+      "Bash(cmd /c \"taskkill /F /PID 20208\")"
+    ]
+  }
+}
